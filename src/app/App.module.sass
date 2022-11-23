@@ -1,0 +1,14 @@
+@import "src/styles/color.module"
+@import "src/styles/mixin"
+
+.appWrapper
+  display: flex
+  flex-direction: column
+  height: 100vh
+
+.header
+  +elementStyle(60px, to bottom, $gradientHeader)
+
+.footer
+  +elementStyle(50px, to left, $gradientFooter)
+  margin-top: 20px
